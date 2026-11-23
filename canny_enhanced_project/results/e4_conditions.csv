@@ -1,0 +1,49 @@
+condition,method,f1,precision,recall
+contrast x0.25,manual_original_style,0.535,0.994,0.372
+contrast x0.25,improved_gaussian_fixed,0.886,1.0,0.796
+contrast x0.25,improved_gaussian_median,0.201,0.6,0.125
+contrast x0.25,improved_gaussian_otsu,0.85,1.0,0.742
+contrast x0.25,opencv_fixed,0.903,1.0,0.825
+contrast x0.25,opencv_median,0.318,0.6,0.228
+contrast x0.25,sobel,0.906,0.999,0.831
+contrast x0.25,original_script,0.429,0.458,0.407
+contrast x0.5,manual_original_style,0.839,0.993,0.727
+contrast x0.5,improved_gaussian_fixed,0.965,1.0,0.934
+contrast x0.5,improved_gaussian_median,0.655,1.0,0.504
+contrast x0.5,improved_gaussian_otsu,0.845,1.0,0.735
+contrast x0.5,opencv_fixed,0.97,1.0,0.943
+contrast x0.5,opencv_median,0.739,1.0,0.608
+contrast x0.5,sobel,0.903,1.0,0.826
+contrast x0.5,original_script,0.683,0.609,0.78
+normal,manual_original_style,0.948,0.991,0.91
+normal,improved_gaussian_fixed,0.969,1.0,0.941
+normal,improved_gaussian_median,0.904,1.0,0.827
+normal,improved_gaussian_otsu,0.845,1.0,0.734
+normal,opencv_fixed,0.97,1.0,0.943
+normal,opencv_median,0.912,1.0,0.84
+normal,sobel,0.906,0.999,0.83
+normal,original_script,0.73,0.6,0.933
+contrast x1.5,manual_original_style,0.942,0.993,0.898
+contrast x1.5,improved_gaussian_fixed,0.961,1.0,0.927
+contrast x1.5,improved_gaussian_median,0.944,1.0,0.898
+contrast x1.5,improved_gaussian_otsu,0.878,1.0,0.787
+contrast x1.5,opencv_fixed,0.964,1.0,0.931
+contrast x1.5,opencv_median,0.949,1.0,0.906
+contrast x1.5,sobel,0.929,0.999,0.871
+contrast x1.5,original_script,0.712,0.58,0.924
+dark (gamma 2),manual_original_style,0.843,0.994,0.733
+dark (gamma 2),improved_gaussian_fixed,0.967,1.0,0.937
+dark (gamma 2),improved_gaussian_median,0.967,1.0,0.938
+dark (gamma 2),improved_gaussian_otsu,0.746,1.0,0.599
+dark (gamma 2),opencv_fixed,0.968,1.0,0.939
+dark (gamma 2),opencv_median,0.968,1.0,0.94
+dark (gamma 2),sobel,0.754,0.999,0.608
+dark (gamma 2),original_script,0.664,0.576,0.786
+bright (gamma 0.5),manual_original_style,0.943,0.99,0.901
+bright (gamma 0.5),improved_gaussian_fixed,0.969,1.0,0.941
+bright (gamma 0.5),improved_gaussian_median,0.637,1.0,0.472
+bright (gamma 0.5),improved_gaussian_otsu,0.935,1.0,0.881
+bright (gamma 0.5),opencv_fixed,0.97,1.0,0.942
+bright (gamma 0.5),opencv_median,0.777,1.0,0.65
+bright (gamma 0.5),sobel,0.94,1.0,0.89
+bright (gamma 0.5),original_script,0.717,0.582,0.934

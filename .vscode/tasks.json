@@ -1,0 +1,29 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Run Streamlit Canny app",
+			"type": "shell",
+			"command": "\"C:\\Users\\hrish\\OneDrive\\Desktop\\3RD YEAR\\Mini Project\\canny_enhanced_project\\canny_enhanced_project\\.venv\\Scripts\\python.exe\"",
+			"args": [
+				"-m",
+				"streamlit",
+				"run",
+				"canny_enhanced_project\\app.py",
+				"--server.headless",
+				"true",
+				"--server.port",
+				"8501"
+			],
+			"isBackground": true,
+			"problemMatcher": []
+		},
+		{
+			"label": "Launch Canny Streamlit Server",
+			"type": "shell",
+			"command": "& 'C:\\Users\\hrish\\OneDrive\\Desktop\\3RD YEAR\\Mini Project\\canny_enhanced_project\\canny_enhanced_project\\.venv\\Scripts\\python.exe' -m streamlit run 'C:\\Users\\hrish\\OneDrive\\Desktop\\3RD YEAR\\Mini Project\\canny_enhanced_project\\canny_enhanced_project\\app.py' --server.headless true --server.port 8501",
+			"isBackground": true,
+			"problemMatcher": []
+		}
+	]
+}
